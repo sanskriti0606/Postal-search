@@ -11,7 +11,7 @@ const SearchPage = () => {
   const handleSearch = async () => {
     setLoading(true);
     try {
-      const response = await axios.get('http://localhost:5000/api/search', {
+      const response = await axios.get('https://api.postalpincode.in/pincode/110001/api/search', {
         params: { query, type },
       });
       setResults(response.data);
