@@ -4,7 +4,7 @@ import axios from 'axios';
 
 // Create an axios instance
 const axiosInstance = axios.create({
-  baseURL: 'https://your-api-base-url.com/', // Replace this with your actual API base URL
+  baseURL: 'http://www.postalpincode.in/Api-Details/', // Replace this with your actual API base URL
   headers: {
     'Content-Type': 'application/json',
   },
