@@ -29,3 +29,29 @@ A simple application to search Indian postal (PIN) codes and view location detai
 ```bash
 git clone https://github.com/your-username/postal-search-app.git
 cd postal-search-app
+
+### 2. Install Dependencies
+bash
+Copy code
+npm install
+
+### 3. Setup Database
+Create a MySQL/MariaDB/PostgreSQL database for the project.
+Update the database connection details in db.js file.
+
+### 4. Start the Server
+bash
+Copy code
+node index.js
+The server will start, and the app will be available at http://localhost:3000.
+
+### 5. API Integration
+The app uses the Postal Pincode API to fetch location details based on the PIN code or location name.
+
+License
+This project is licensed under the MIT License.
+
+vbnet
+Copy code
+
+This README provides clear instructions on what the project does, the technologies used, how 
