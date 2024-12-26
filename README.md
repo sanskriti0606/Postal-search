@@ -22,11 +22,12 @@ A simple application to search Indian postal (PIN) codes and view location detai
 - **API**: [Postal Pincode API](http://www.postalpincode.in/Api-Details)
 - **Version Control**: Git
 
+  
+
 ## Setup
 
+This README provides clear instructions on what the project does, the technologies used, how 
 ### 1. Clone the Repository
-
-```bash
 git clone https://github.com/your-username/postal-search-app.git
 cd postal-search-app
 
@@ -34,11 +35,9 @@ cd postal-search-app
 bash
 Copy code
 npm install
-
 ### 3. Setup Database
 Create a MySQL/MariaDB/PostgreSQL database for the project.
 Update the database connection details in db.js file.
-
 ### 4. Start the Server
 bash
 Copy code
@@ -55,3 +54,6 @@ vbnet
 Copy code
 
 This README provides clear instructions on what the project does, the technologies used, how 
+
+
+
