@@ -18,7 +18,7 @@ A simple application to search Indian postal (PIN) codes and view location detai
 
 - **Backend**: Node.js
 - **Database**: MySQL/MariaDB/PostgreSQL
-- **Frontend**: HTML, Bootstrap 5 (can be used with any frontend framework)
+- **Frontend**: HTML, CSS
 - **API**: [Postal Pincode API](http://www.postalpincode.in/Api-Details)
 - **Version Control**: Git
 
